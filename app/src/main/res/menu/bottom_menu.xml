@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Inicio"
+        app:cnb_iconColor="@color/colorPrimary"/>
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Busqueda"
+        app:cnb_iconColor="@color/rojo"/>
+    <item
+        android:id="@+id/agenda"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="Eventos"
+        app:cnb_iconColor="@color/naranja" />
+    <item
+        android:id="@+id/perfil"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Perfil"
+        app:cnb_iconColor="@color/verduzco" />
+</menu>

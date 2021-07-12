@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negro"
+    tools:context=".Vista.BoomBall2">
+
+    <com.jawnnypoo.physicslayout.PhysicsFrameLayout
+        android:id="@+id/physicsLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:gravityY="0"
+        app:physics="true">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/bolita2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal |bottom"
+            app:layout_circleRadius="30dp"
+            app:layout_restitution="0.5"
+            app:layout_shape="circle"
+            app:layout_density="1"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="eyerobot.json"
+            app:lottie_loop="false" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/buuu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal |start"
+            app:layout_circleRadius="30dp"
+            app:layout_restitution="0.7"
+            app:layout_shape="circle"
+            app:layout_density="1"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="buuu.json"
+            app:lottie_loop="true" />
+
+    </com.jawnnypoo.physicslayout.PhysicsFrameLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="backgstars.json"
+        app:lottie_loop="true" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

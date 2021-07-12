@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "318660687094",
+    "firebase_url": "https://scgooply.firebaseio.com",
+    "project_id": "scgooply",
+    "storage_bucket": "scgooply.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318660687094:android:2e0b3966f56adf19d568d7",
+        "android_client_info": {
+          "package_name": "com.seriouscorp.gooply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318660687094-k689oj32rngcrebv8gq20arcbpccn9hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.seriouscorp.gooply",
+            "certificate_hash": "570432981daa6cecb9273a83431426f514e6893f"
+          }
+        },
+        {
+          "client_id": "318660687094-q6ce7ho8fr2r6tbcnneromfb5im8uqa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ9j3DBpE1neILrypmtHnz8jcXdRb-ymo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318660687094-q6ce7ho8fr2r6tbcnneromfb5im8uqa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
